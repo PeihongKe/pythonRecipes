@@ -1,8 +1,8 @@
-import sys
-import unittest
+import util
 
 
 class A(object):
+
     def whoami(self):
         return 'I am A'
 
@@ -25,7 +25,8 @@ class D(B, A):
 # The MRO if a subclass is an extension without -re-ordering of the MROs of the superclasses
 # linearization of a class using C3 algorithm
 
-class TestRMO(unittest.TestCase):
+
+class TestMRO(util.TestCaseBase):
 
     def test_depth_first(self):
         d_obj = D()
@@ -44,8 +45,9 @@ class TestRMO(unittest.TestCase):
             class E(C, D):
                 pass
         outcome = (str(err.exception))
-        expected = 'Cannot create a consistent method resolution\norder (MRO) for bases B, A'
-        self.assertEqual(outcome, expected)
+        expected1 = 'Cannot create a consistent method resolution\norder (MRO) for bases B, A'
+        expected2 = 'Cannot create a consistent method resolution\norder (MRO) for bases A, B'
+        self.assertTrue(outcome == expected1 or outcome == expected2)
 
     def test_mro_cls_attr(self):
         outcome = D.__mro__
@@ -58,8 +60,7 @@ class TestRMO(unittest.TestCase):
         self.assertEqual(outcome, expected)
 
 
-if __name__ == '__main__':
-        unittest.main()
+
 
 
 
