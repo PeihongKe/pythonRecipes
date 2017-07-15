@@ -63,7 +63,7 @@ class TestDictComprehension(util.TestCaseBase):
         expected = {1: 1, 2: 4, 3: 9, 4: 16}
         self.assertEqual(outcome, expected)
 
-    def test_nested_for(self):
+    def test_basic_2(self):
         """ nested for """
         keys = [1, 2, 3, 4]
         values = ['a', 'b', 'c', 'd']
