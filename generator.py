@@ -1,5 +1,7 @@
 import util
 import types
+
+
 # Iterators are objects that can be iterated upon.
 # Technically speaking, Python iterator object must implement two special methods, __iter__() and __next__(), collectively called the iterator protocol.
 # An object is called iterable if we can get an iterator from i,  like: list, tuple, string etc
@@ -10,17 +12,17 @@ import types
 class SquaresIter(object):
     """ iterator returning square of a range"""
 
-    def __init__(self, start, stop, allowReIterate= False):
+    def __init__(self, start, stop, allow_re_iterate=False):
         """ iter """
         self.start = start
         self.stop = stop
         self._start = start
         self._stop = stop
-        self._allowReIterate = False
+        self._allow_re_iterate = False
 
     def __iter__(self):
         """ called by iter"""
-        if self._allowReIterate:
+        if self._allow_re_iterate:
             self.start = self._restart
             self.stop = self._stop
         return self
@@ -30,19 +32,20 @@ class SquaresIter(object):
         if self.start >= self.stop:
             raise StopIteration
         curr = self.start * self.start
-        self.start +=1
+        self.start += 1
         return curr
 
     def current(self):
         """extra method that an iterator can have but not generator"""
         return self.start
 
+
 class TestBuiltIns(util.TestCaseBase):
     """ test next() and iter() """
 
     def test_next(self):
         """ iter(collection); next """
-        my_list = [1,2,3,4]
+        my_list = [1, 2, 3, 4]
         my_iter = iter(my_list)
         self.assertEqual(next(my_iter), 1)
         self.assertEqual(next(my_iter), 2)
@@ -54,12 +57,12 @@ class TestBuiltIns(util.TestCaseBase):
     def test_iter_sentinel(self):
         """ iter(callable, sentinel): iterate until sentinel is returned from callable """
         i = 1
+
         def odd_num():
             """ return 3, 5, 7, 9  ....."""
             nonlocal i
-            i+= 2
+            i += 2
             return i
-
 
         inf = iter(odd_num, 7)
         self.assertEqual(next(inf), 3)
@@ -90,11 +93,13 @@ class TestIterator(util.TestCaseBase):
         self.assertEqual(next(ite), 9)
         self.assertEqual(next(ite), 16)
 
+
 def my_gen():
     """ a generator function"""
     yield 3
     yield 7
     yield 21
+
 
 class TestGenerator(util.TestCaseBase):
     """generator"""
@@ -103,7 +108,6 @@ class TestGenerator(util.TestCaseBase):
         """ generator type"""
         self.assertTrue(type(my_gen), types.FunctionType)
         self.assertTrue(type(my_gen()), types.GeneratorType)
-
 
     def test_gen1(self):
         """ """
@@ -125,21 +129,5 @@ class TestGenExp(util.TestCaseBase):
 
     def test_gen_exp_type(self):
         """ """
-        gen_exp= (i*i for i in range(1,5)) # generator object
+        gen_exp = (i * i for i in range(1, 5))  # generator object
         self.assertEqual(type(gen_exp), types.GeneratorType)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

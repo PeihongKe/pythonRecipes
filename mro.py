@@ -2,7 +2,6 @@ import util
 
 
 class A(object):
-
     def whoami(self):
         return 'I am A'
 
@@ -21,13 +20,11 @@ class D(B, A):
         return 'I am D'
 
 
-
 # The MRO if a subclass is an extension without -re-ordering of the MROs of the superclasses
 # linearization of a class using C3 algorithm
 
 
 class TestMRO(util.TestCaseBase):
-
     def test_depth_first(self):
         d_obj = D()
         outcome = d_obj.whoami()
@@ -51,18 +48,10 @@ class TestMRO(util.TestCaseBase):
 
     def test_mro_cls_attr(self):
         outcome = D.__mro__
-        expected = (D, B, A, object) # tuple
+        expected = (D, B, A, object)  # tuple
         self.assertEqual(outcome, expected)
 
     def test_mro_class_func(self):
         outcome = D.mro()
-        expected = [D, B, A, object] # list
+        expected = [D, B, A, object]  # list
         self.assertEqual(outcome, expected)
-
-
-
-
-
-
-
-
