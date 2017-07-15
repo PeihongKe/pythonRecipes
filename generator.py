@@ -1,5 +1,5 @@
-import util
 import types
+import util
 
 
 # Iterators are objects that can be iterated upon.
