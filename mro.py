@@ -37,7 +37,7 @@ class TestMRO(util.TestCaseBase):
         expected = 'I am A'
         self.assertEqual(outcome, expected)
 
-    def test_inconsistent_resolution_error(self):
+    def test_inconsistent_method_resolution_error(self):
         with self.assertRaises(TypeError) as err:
             class E(C, D):
                 pass
@@ -45,6 +45,14 @@ class TestMRO(util.TestCaseBase):
         expected1 = 'Cannot create a consistent method resolution\norder (MRO) for bases B, A'
         expected2 = 'Cannot create a consistent method resolution\norder (MRO) for bases A, B'
         self.assertTrue(outcome == expected1 or outcome == expected2)
+
+    def test_inconsistent_method_resolution_error2(self):
+        with self.assertRaises(TypeError) as err:
+            class F(A, object, B):
+                pass
+        outcome = (str(err.exception))
+        expected = 'Cannot create a consistent method resolution\norder (MRO) for bases object, B'
+        self.assertTrue(outcome == expected)
 
     def test_mro_cls_attr(self):
         outcome = D.__mro__
