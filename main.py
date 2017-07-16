@@ -1,7 +1,7 @@
 import unittest
-import mro
-import idioms
 
+import idioms
+from OO import mro
 
 tests_to_run = [mro.TestMRO, idioms.TestIdioms]
 

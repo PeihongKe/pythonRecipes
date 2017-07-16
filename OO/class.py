@@ -46,3 +46,11 @@ class TestClassHierarchy(util.TestCaseBase):
         """ subclass override callable attribute in super class"""
         c = C()
         self.assertEqual(c.g, 'C.g')
+
+    def test_super_basic(self):
+
+        pass
+
+    def test_super_multi_inheritance(self):
+        # https://stackoverflow.com/questions/3277367/how-does-pythons-super-work-with-multiple-inheritance
+        pass
