@@ -6,4 +6,4 @@ class TestStr(util.TestCaseBase):
 
     def test_sub_string(self):
         """ """
-        self.assertTrue("abc" in "abcdefg")
+        self.assertTrue('abc' in 'abcdefg')
