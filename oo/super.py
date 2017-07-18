@@ -90,7 +90,7 @@ class TestSuperProxy(util.TestCaseBase):
         a_res = ['A.met']
         b_res = ['B.met', 'A.met']
         c_res = ['C.met', 'A.met']
-        d_res = ['D.met', 'B.met', 'C.met', 'A.met']
+        d_res = ['D.met', 'B.met', 'C.met', 'A.met']  # multi inheritance works out itself because of super()
         self.assertEqual(a.met(), a_res)
         self.assertEqual(b.met(), b_res)
         self.assertEqual(c.met(), c_res)
