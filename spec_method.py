@@ -14,7 +14,18 @@ class Rectangle(object):
 
 
 class OptimizedRectangle(Rectangle):
-    __slots__ =  ('width', 'height')
+    __slots__ = ('width', 'height')
+
+
+# __getattribute__ :   You can end up in infinite recursions very easily.
+# __getattribute__ is invoked before looking at the actual attributes on the object
+class listNoAppend(list):
+    """ a list without append """
+
+    def __getattribute__(self, name):
+        if name == 'append':
+            raise AttributeError(name)
+        return list.__getattribute__(self, name)
 
 
 class TestSlot(util.TestCaseBase):
@@ -25,7 +36,7 @@ class TestSlot(util.TestCaseBase):
         o_r = OptimizedRectangle(2, 4)
         self.assertEqual(o_r.__dict__, {})
 
-        r = Rectangle(2,4)
+        r = Rectangle(2, 4)
         self.assertEqual(r.__dict__, {'width': 2, 'height': 4})
 
     def test_slot_with_slot(self):
@@ -39,9 +50,17 @@ class TestSlot(util.TestCaseBase):
         self.assertEqual(str(err.exception), r"'Rectangle' object has no attribute '__slots__'")
 
 
+class TestGetAttribute(util.TestCaseBase):
+    """ invoked before looking at the actual attributes on the object """
 
+    def test_object_attr(self):
+        """ __getattribute__ is object's attribute """
+        print(object.__dict__['__getattribute__'])
 
+    def test_get_attr(self):
+        """ """
+        ll = listNoAppend()
+        with self.assertRaises(AttributeError) as err:
+            ll.append('a')
 
-
-
-
+        self.assertEqual(str(err.exception), 'append')
