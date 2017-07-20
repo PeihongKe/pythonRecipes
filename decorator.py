@@ -67,7 +67,25 @@ def i_miss(name):
     return 'I missed {0}'.format(name)
 
 
-class TestDecorator(util.TestCaseBase):
+def deco_args(func):
+    """ """
+    def wrapper(*args, **wargs):
+        """ """
+        res = func(*args, **wargs)
+        return str(res) + '_'*len(args)
+    return wrapper
+
+@deco_args
+def func_various_args(*args, **wargs):
+    """ """
+    res = ""
+    print(res)
+    for r in args:
+        res += str(r)
+    return res
+
+
+class TestFuncDecorator(util.TestCaseBase):
     """ """
 
     def test_basic_decorator(self):
@@ -93,3 +111,9 @@ class TestDecorator(util.TestCaseBase):
     def test_decorator_with_param(self):
         """ """
         self.assertEqual(i_miss('you'), 'I missed you@')
+
+    def test_decorate_args_wargs(self):
+        """ decorator that accepts args """
+        self.assertEqual(func_various_args(1, 2, 3, 4), '1234____')
+        self.assertEqual(func_various_args(1, 2, 3 ), '123___')
+
