@@ -67,7 +67,7 @@ def i_miss(name):
     return 'I missed {0}'.format(name)
 
 
-def deco_args(func):
+def trailing_underscore(func):
     """ """
     def wrapper(*args, **wargs):
         """ """
@@ -75,7 +75,7 @@ def deco_args(func):
         return str(res) + '_'*len(args)
     return wrapper
 
-@deco_args
+@trailing_underscore
 def func_various_args(*args, **wargs):
     """ """
     res = ""
@@ -116,4 +116,5 @@ class TestFuncDecorator(util.TestCaseBase):
         """ decorator that accepts args """
         self.assertEqual(func_various_args(1, 2, 3, 4), '1234____')
         self.assertEqual(func_various_args(1, 2, 3 ), '123___')
+        self.assertEqual(func_various_args(1), '1_')
 
