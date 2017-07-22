@@ -47,6 +47,7 @@ def i_enjoy(name):
 
 I_ENJOY_I_ENJOY = upper_case_decorate(double_decorator(i_enjoy))
 
+
 @double_decorator
 @upper_case_decorate
 def i_like(name):
@@ -57,8 +58,10 @@ def i_like(name):
 def end_with(symbol):
     def end_with_decorator(func):
         def func_wrapper(name):
-            return func(name) +  symbol
+            return func(name) + symbol
+
         return func_wrapper
+
     return end_with_decorator
 
 
@@ -69,11 +72,14 @@ def i_miss(name):
 
 def trailing_underscore(func):
     """ """
+
     def wrapper(*args, **wargs):
         """ """
         res = func(*args, **wargs)
-        return str(res) + '_'*len(args)
+        return str(res) + '_' * len(args)
+
     return wrapper
+
 
 @trailing_underscore
 def func_various_args(*args, **wargs):
@@ -83,6 +89,82 @@ def func_various_args(*args, **wargs):
     for r in args:
         res += str(r)
     return res
+
+
+class CaseDecorator(object):
+    """ a class for decorator """
+
+    @staticmethod
+    def upper(func):
+        """ upper """
+
+        def upper_wrapper(input):
+            """ """
+            res = func(input)
+            return res.upper()
+
+        return upper_wrapper
+
+    @classmethod
+    def lower(cls, func):
+        """ upper """
+
+        def lower_wrapper(input):
+            """ as it says """
+            res = func(input)
+            return res.lower()
+
+        return lower_wrapper
+
+    @classmethod
+    def with_name(cls, name):
+        """ """
+
+        def with_name_f(func):
+            """ """
+
+            def with_name_f_wrapper():
+                """ """
+                res = func()
+                return res + name
+
+            return with_name_f_wrapper
+
+        return with_name_f
+
+
+@CaseDecorator.upper
+def i_am(name):
+    """ as it says """
+    return "I am {}".format(name)
+
+
+@CaseDecorator.lower
+def i_am_not(name):
+    """ as it says """
+    return "I am not {}".format(name)
+
+
+@CaseDecorator.with_name('Hero')
+def he_is():
+    """ """
+    return 'He is '
+
+
+class TestClassDecorator(util.TestCaseBase):
+    """ class decorator """
+
+    def test_class_decorator_upper(self):
+        """ as it says"""
+        self.assertEqual(i_am_not('WEAK'), 'i am not weak')
+
+    def test_class_decorator_lower(self):
+        """ as it says"""
+        self.assertEqual(i_am('strong'), 'I AM STRONG')
+
+    def test_class_decorator_with_arg(self):
+        """ as it says"""
+        self.assertEqual(he_is(), 'He is Hero')
 
 
 class TestFuncDecorator(util.TestCaseBase):
@@ -115,6 +197,5 @@ class TestFuncDecorator(util.TestCaseBase):
     def test_decorate_args_wargs(self):
         """ decorator that accepts args """
         self.assertEqual(func_various_args(1, 2, 3, 4), '1234____')
-        self.assertEqual(func_various_args(1, 2, 3 ), '123___')
+        self.assertEqual(func_various_args(1, 2, 3), '123___')
         self.assertEqual(func_various_args(1), '1_')
-
