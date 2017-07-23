@@ -1,8 +1,24 @@
 import util
 
+class A(object):
+
+    def return_name(self):
+        return 'A::return_name'
 
 class TestClassLevelMethod(util.TestCaseBase):
     """ static and class method"""
+
+    def test_per_instance_method(self):
+        """ instance specific binding hinds a class level binding"""
+        a = A()
+        self.assertEqual(a.return_name(), 'A::return_name')
+        a.return_name = lambda: 'a::return_name'
+        self.assertEqual(a.return_name(), 'a::return_name')
+
+    def test_per_instance_method_special(self):
+        """ instance cannot override special method """
+        pass
+
 
     def test_static_method(self):
         """ test builtin type staticmethod """
