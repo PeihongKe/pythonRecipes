@@ -45,12 +45,36 @@ class TestClassHierarchy(util.TestCaseBase):
     def test_method_attr_override(self):
         """ subclass override callable attribute in super class"""
         c = C()
-        self.assertEqual(c.g, 'C.g')
+        self.assertEqual(c.g(), 'C.g()')
 
     def test_super_basic(self):
-
         pass
 
     def test_super_multi_inheritance(self):
         # https://stackoverflow.com/questions/3277367/how-does-pythons-super-work-with-multiple-inheritance
         pass
+
+
+class TestInheritantFromBuiltIn(util.TestCaseBase):
+    """  test inheritance with built in types """
+
+    def test_inherit_from_list(self):
+        """ a class can inherit from built in types"""
+
+        class MyList(list):
+            """ inherit from builtin list"""
+
+            def my_special_method(self):
+                return "my special method"
+
+        my_list = MyList()
+        self.assertEqual(my_list.my_special_method(), 'my special method')
+
+
+    def test_inherit_from_dict_list(self):
+        """ multiple base classes have instance lay-out conflct"""
+        with self.assertRaises(TypeError) as err:
+            class MyListDict(dict, list): pass
+
+        print(str(err.exception), 'multiple bases have instance lay-out conflict')
+
