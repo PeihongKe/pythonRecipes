@@ -150,6 +150,31 @@ def he_is():
     """ """
     return 'He is '
 
+def call(*argv, **kwargs): # in a normal decorator, the parameter here is func
+    """ the call decorator """
+    def call_fn(fn): # in a normal decorator, the parameter here is the pamameters of the original funciton
+        return fn(*argv, **kwargs)
+    return call_fn
+
+
+@call(6)
+def table(n):
+    """ """
+    value = []
+    for i in range(n):
+        value.append(i*i)
+    return value
+
+
+
+class TestCallDecorator(util.TestCaseBase):
+    """ Call decorator"""
+
+    def test_call_decorator(self):
+        """ """
+        self.assertEqual(table, [0, 1,4,9,16,25])
+
+
 
 class TestClassDecorator(util.TestCaseBase):
     """ class decorator """
