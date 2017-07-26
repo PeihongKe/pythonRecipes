@@ -27,3 +27,11 @@ class TestDict(util.TestCaseBase):
         d[1, 2] = 3
         self.assertTrue([k for k in d.keys()][0], (1, 2))
 
+    def test_dict_init_kw(self):
+        """ create dictionary using key work arguments"""
+        d = dict(i=1, j=2)
+        self.assertEqual(d['i'], 1)
+        self.assertEqual(d['j'], 2)
+
+
+
