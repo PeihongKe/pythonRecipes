@@ -92,7 +92,7 @@ def func_various_args(*args, **wargs):
 
 
 class CaseDecorator(object):
-    """ a class for decorator """
+    """ a class whose member functions are used as decorators """
 
     @staticmethod
     def upper(func):
@@ -150,10 +150,13 @@ def he_is():
     """ """
     return 'He is '
 
-def call(*argv, **kwargs): # in a normal decorator, the parameter here is func
+
+def call(*argv, **kwargs):  # in a normal decorator, the parameter here is func
     """ the call decorator """
-    def call_fn(fn): # in a normal decorator, the parameter here is the pamameters of the original funciton
+
+    def call_fn(fn):  # in a normal decorator, the parameter here is the pamameters of the original funciton
         return fn(*argv, **kwargs)
+
     return call_fn
 
 
@@ -162,9 +165,64 @@ def table(n):
     """ """
     value = []
     for i in range(n):
-        value.append(i*i)
+        value.append(i * i)
     return value
 
+def decorate_with_class(class_name):
+    """ decorate a class's method function """
+    def method_decorator(func):
+        """ decorator a member function"""
+        def wrapper():
+            return '{0}::{1}'.format(class_name, func())
+        return wrapper
+    return method_decorator
+
+
+def class_decorator(*method_names):
+    """ a class decorator that has method names as the arugment"""
+
+    def class_builder(cls):
+        """ build a new class based on the orignal class """
+
+        class NewClass(cls):
+            """ define a new class that overwrites from the original class"""
+
+            def __getattribute__(self, attr_name):
+                obj = super(cls, self).__getattribute__(attr_name)
+                if hasattr(obj, '__call__') and attr_name in method_names:
+                    print(decorate_with_class(cls.__name__))
+                    return decorate_with_class(cls.__name__)(obj)
+                return obj
+
+        return NewClass
+
+    return class_builder
+
+@class_decorator('first_method')
+class MyClass(object):
+    """  a class to be decorated by class decorator"""
+
+    def first_method(self):
+        """ """
+        return 'first_method'
+
+    def second_method(self):
+        """ """
+        return 'second_method'
+
+
+class TestClassDecorator(util.TestCaseBase):
+    """test class decorator"""
+
+    def test_it(self):
+        """ as it says"""
+        decorated_cls = MyClass()
+        self.assertEqual(decorated_cls.first_method(), 'MyClass::first_method')
+        self.assertEqual(decorated_cls.second_method(), 'second_method')
+
+
+def test_class_deco(self):
+    """ test it"""
 
 
 class TestCallDecorator(util.TestCaseBase):
@@ -172,12 +230,11 @@ class TestCallDecorator(util.TestCaseBase):
 
     def test_call_decorator(self):
         """ """
-        self.assertEqual(table, [0, 1,4,9,16,25])
+        self.assertEqual(table, [0, 1, 4, 9, 16, 25])
 
 
-
-class TestClassDecorator(util.TestCaseBase):
-    """ class decorator """
+class TestMemberFuncDecorator(util.TestCaseBase):
+    """ member function decorator """
 
     def test_class_decorator_upper(self):
         """ as it says"""
