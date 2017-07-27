@@ -179,13 +179,13 @@ def decorate_with_class(class_name):
 
 
 def class_decorator(*method_names):
-    """ a class decorator that has method names as the arugment"""
+    """ a class decorator that has method names as the argument"""
 
     def class_builder(cls):
-        """ build a new class based on the orignal class """
+        """ build a new class based on the original class """
 
         class NewClass(cls):
-            """ define a new class that overwrites from the original class"""
+            """ define a new class that overwrites  the original class"""
 
             def __getattribute__(self, attr_name):
                 obj = super(cls, self).__getattribute__(attr_name)
