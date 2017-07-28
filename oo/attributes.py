@@ -1,9 +1,10 @@
 import util
 
-class A(object):
 
+class A(object):
     def return_name(self):
         return 'A::return_name'
+
 
 class TestClassLevelMethod(util.TestCaseBase):
     """ static and class method"""
@@ -18,7 +19,6 @@ class TestClassLevelMethod(util.TestCaseBase):
     def test_per_instance_method_special(self):
         """ instance cannot override special method """
         pass
-
 
     def test_static_method(self):
         """ test builtin type staticmethod """
@@ -78,3 +78,23 @@ class TestClassLevelMethod(util.TestCaseBase):
 
         self.assertEqual(ADeriv.a_classmet(), 'class method forADeriv')
         self.assertEqual(ADeriv().a_classmet(), 'class method forADeriv')
+
+
+class B(object):
+    """ a class for testing class level attributes """
+    Version = 1.0
+
+
+class TestClassAttribute(util.TestCaseBase):
+    """  test class level and instance level attributes """
+
+    def test_class_attribute(self):
+        """ attribute on class level is shared by all instance, attributes on instance level is unique to that instance"""
+        b = B()
+        self.assertEqual(B.Version, 1.0)
+        self.assertEqual(b.Version, 1.0)
+
+        b.Version = 2.0
+
+        self.assertEqual(B.Version, 1.0)
+        self.assertEqual(b.Version, 2.0)
