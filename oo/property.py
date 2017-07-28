@@ -19,7 +19,7 @@ class Rectangle(object):
     read_only_area = property(fget=get_area, doc='area of the rectangle ')
     not_allowed_area = property(fget=None, fset=None, fdel=None, doc=None)
 
-    @property
+    @property # the x property. the decorator creates a read-only property
     def read_only_area_decorator(self):
         """ readonly using decorator """
         return self.width * self.height
