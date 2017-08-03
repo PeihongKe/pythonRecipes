@@ -33,5 +33,8 @@ class TestDict(util.TestCaseBase):
         self.assertEqual(d['i'], 1)
         self.assertEqual(d['j'], 2)
 
-
-
+    def test_dict_key_value_types(self):
+        """ key and value types are frozenset"""
+        dct = {1: 2}
+        print(type(dct.keys()), frozenset)
+        print(type(dct.values()), frozenset)
