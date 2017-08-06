@@ -6,7 +6,7 @@ class A(object):
         return 'A::return_name'
 
 
-class TestClassLevelMethod(util.TestCaseBase):
+class TestClassInstLevelMethod(util.TestCaseBase):
     """ static and class method"""
 
     def test_per_instance_method(self):
@@ -19,6 +19,11 @@ class TestClassLevelMethod(util.TestCaseBase):
     def test_per_instance_method_special(self):
         """ instance cannot override special method """
         pass
+
+    def test_inst_level_method(self):
+        """ """
+        a = A()
+        self.assertEqual(a.return_name(), A.return_name(a))
 
 class TestStaticAndClassMethods(util.TestCaseBase):
     """ static and class methods """
