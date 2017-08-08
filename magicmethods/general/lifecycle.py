@@ -12,6 +12,8 @@ class FileObject(object):
         self.file = open(join(filepath, filename), 'r+')
 
     def __del__(self):
+        """  It doesn't implement behavior for the statement del x (so that code would not translate to x.__del__() ).
+        Rather, it defines behavior for when an object is garbage collected. """
         self.file.close()
         del self.file
 
