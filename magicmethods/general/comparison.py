@@ -24,6 +24,20 @@ class A(object):
         else:
             return 1
 
+    def __ne__(self, other):
+        """ != """
+
+    def __lt__(self, other):
+        """ < """
+
+    def __gt__(self, other):
+        """ < """
+
+    def __le__(self, other):
+        """ <= """
+
+    def __ge__(self, other):
+        """ >= """
 
 class TestComparison(util.TestCaseBase):
     """ """
