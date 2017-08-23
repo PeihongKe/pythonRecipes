@@ -57,16 +57,22 @@ class TestSetComprehension(util.TestCaseBase):
 class TestDictComprehension(util.TestCaseBase):
     """ as it says """
 
-    def test_basic(self):
+    def test_init(self):
         """ as it says """
         outcome = {x: x ** 2 for x in range(1, 5)}
         expected = {1: 1, 2: 4, 3: 9, 4: 16}
         self.assertEqual(outcome, expected)
 
-    def test_basic_2(self):
+    def test_init_2(self):
         """ nested for """
         keys = [1, 2, 3, 4]
         values = ['a', 'b', 'c', 'd']
         outcome = {x: y for (x, y) in zip(keys, values)}
         expected = {1: 'a', 2: 'b', 3: 'c', 4: 'd'}
         self.assertEqual(outcome, expected)
+
+    def test_basic(self):
+        """ test dictionary comprehension """
+        d = {"1":2, "3":4}
+        s = sum((int(k) + v) for k, v in d.items())
+        self.assertEqual(s, 10)
