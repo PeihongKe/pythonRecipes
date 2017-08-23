@@ -16,6 +16,15 @@ class AClass():
         return 'a class function'
 
 
+class Empty(object):
+    """ """
+
+class IntInt(int):
+    """ """
+
+class IntIntInt(IntInt, Empty):
+    """ """
+
 class TestSpecialAttr(util.TestCaseBase):
     """ test special attributes """
 
@@ -51,3 +60,13 @@ class TestSpecialAttr(util.TestCaseBase):
         """ class attributes are accessible from an instance """
         a = AClass()
         self.assertEqual(a.class_attr, 'attr on class')
+
+    def test_base(self):
+        """ test __base__ and __bases"""
+        self.assertEqual(IntIntInt.__base__.__name__, 'IntInt')
+
+    def test_bases(self):
+        """ test __bases__"""
+        base_names = [b.__name__ for b in IntIntInt.__bases__]
+        self.assertEqual(base_names, ['IntInt', 'Empty'])
+
