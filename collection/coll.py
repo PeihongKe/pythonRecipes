@@ -1,6 +1,16 @@
 import util
 
 
+class TestGeneral(util.TestCaseBase):
+    """ """
+
+    def test_enumerate(self):
+        ''' '''
+        l = [1, 2, 3, 4]
+        res = (list(enumerate(l)))
+        expected = [(0, 1), (1, 2), (2, 3), (3, 4)]
+        
+
 class TestList(util.TestCaseBase):
     """ test builtin List"""
 
@@ -10,6 +20,12 @@ class TestList(util.TestCaseBase):
         b = ['b']
         self.assertEqual(b.extend(a), None)
         self.assertEqual(b, ['b', 'a'])
+
+    def test_index(self):
+        """ """
+        list = [1, 2, 3, 4, 5]
+        res = list.index(5)
+        expected = 4
 
 
 class TestFrozenSet(util.TestCaseBase):
