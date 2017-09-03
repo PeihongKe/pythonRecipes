@@ -9,7 +9,7 @@ class TestGeneral(util.TestCaseBase):
         l = [1, 2, 3, 4]
         res = (list(enumerate(l)))
         expected = [(0, 1), (1, 2), (2, 3), (3, 4)]
-        
+
 
 class TestList(util.TestCaseBase):
     """ test builtin List"""
@@ -26,6 +26,24 @@ class TestList(util.TestCaseBase):
         list = [1, 2, 3, 4, 5]
         res = list.index(5)
         expected = 4
+
+
+class TestListAsStack(util.TestCaseBase):
+    """ """
+
+    def test_list_as_queue(self):
+        stack = [3, 4, 5]
+        stack.append(7)
+        stack.pop()
+
+
+class TestDequeue(util.TestCaseBase):
+    def test_deque(self):
+        """ """
+        from collections import deque
+        queue = deque(["Eric", "John", "Michael"])
+        queue.append("Emma")
+        queue.popleft()
 
 
 class TestFrozenSet(util.TestCaseBase):
