@@ -72,3 +72,9 @@ class TestDict(util.TestCaseBase):
         dct = {1: 2}
         print(type(dct.keys()), frozenset)
         print(type(dct.values()), frozenset)
+
+    def test_dict_get(self):
+        """ test get(key, [defaultValue])"""
+        d = {'a': 1, 'b': 2}
+        res = d.get('c', 3)
+        self.assertEqual(res, 3)
