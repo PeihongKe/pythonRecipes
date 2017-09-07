@@ -11,6 +11,17 @@ class TestGeneral(util.TestCaseBase):
         expected = [(0, 1), (1, 2), (2, 3), (3, 4)]
 
 
+class TestListSlice(util.TestCaseBase):
+
+    def test_reverse(self):
+        """ """
+        a = [1,2,3,4]
+        b = a[::-1]
+        expected = [4,3,2,1]
+        self.assertEqual(b, expected)
+
+
+
 class TestList(util.TestCaseBase):
     """ test builtin List"""
 
