@@ -36,6 +36,11 @@ class TestListComprehension(util.TestCaseBase):
         expected = [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
         self.assertEqual(outcome, expected)
 
+    def test_flat_list_of_list(self):
+        input = [[1, 2], [3, 4], [5, 6]]
+        res = [a for subList in input for a in subList]
+        print(res)
+
 
 class TestSetComprehension(util.TestCaseBase):
     """as it says"""
@@ -73,6 +78,6 @@ class TestDictComprehension(util.TestCaseBase):
 
     def test_basic(self):
         """ test dictionary comprehension """
-        d = {"1":2, "3":4}
+        d = {"1": 2, "3": 4}
         s = sum((int(k) + v) for k, v in d.items())
         self.assertEqual(s, 10)
