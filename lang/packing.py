@@ -21,6 +21,14 @@ def func5(*args, **kwargs):
     return sum(args) + sum(kwargs.values())
 
 
+def func6(a, *args):
+    return a + sum(args)
+
+
+def func7(*args, b):
+    return sum(args) + b
+
+
 class TestUnpacking(util.TestCaseBase):
     """ test arguments """
 
@@ -45,6 +53,22 @@ class TestUnpacking(util.TestCaseBase):
 
 class TestPacking(util.TestCaseBase):
     """ test packing """
+
+    def test_it(self):
+        input = (2, 3)
+        expected = 6
+        res = func6(1, *input)
+        self.assertEqual(res, expected)
+
+        # res1 = func6(a=1, *input) # TypeError: func6() got multiple values for argument 'a'
+
+    def test_that(self):
+        input = (1, 2)
+        expected = 6
+        res = func7(*input, b=3)
+        self.assertEqual(res, expected)
+
+        # func7(*input, 3) #SyntaxError: only named arguments may follow *expression
 
     def test_pack_pos(self):
         """ test pos packing """

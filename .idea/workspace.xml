@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4733dfb1-3dbc-4017-a01f-eb8fd66c3a13" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builtins.py" afterPath="$PROJECT_DIR$/builtins.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/packing.py" afterPath="$PROJECT_DIR$/lang/packing.py" />
+    </list>
+    <ignored path=".idea/misc.xml" />
+    <ignored path=".idea/modules.xml" />
+    <ignored path=".idea/pythonRecipes.iml" />
+    <ignored path=".idea/vcs.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="pythonRecipes" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="coll.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collection/coll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comprehension.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pythonic/comprehension.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="packing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lang/packing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gotchas.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gotchas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40293637">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meta_class.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meta_class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="153" column="38" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="idioms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/idioms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="immutable.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/immutable.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="methods.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lang/methods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>module</find>
+      <find>sive</find>
+      <find>I_ENJOY_I_ENJOY</find>
+      <find>upper_case_decorate</find>
+      <find>return_name</find>
+      <find>when_else_not_hit_break</find>
+      <find>assertRaises</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>sion</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/decorator.py" />
+        <option value="$PROJECT_DIR$/meta_class.py" />
+        <option value="$PROJECT_DIR$/async.py" />
+        <option value="$PROJECT_DIR$/coroutine.py" />
+        <option value="$PROJECT_DIR$/oo/property.py" />
+        <option value="$PROJECT_DIR$/oo/attributes_t.py" />
+        <option value="$PROJECT_DIR$/oo/attributes.py" />
+        <option value="$PROJECT_DIR$/oo/descriptor.py" />
+        <option value="$PROJECT_DIR$/oo/attribute_and_method/methods.py" />
+        <option value="$PROJECT_DIR$/oo/attributes_method.py" />
+        <option value="$PROJECT_DIR$/specialmethods/lifecycle.py" />
+        <option value="$PROJECT_DIR$/specialmethods/representation.py" />
+        <option value="$PROJECT_DIR$/specialmethods/comparison.py" />
+        <option value="$PROJECT_DIR$/specialmethods/binding.py" />
+        <option value="$PROJECT_DIR$/specialmethods/callable.py" />
+        <option value="$PROJECT_DIR$/specialmethods/general/binding.py" />
+        <option value="$PROJECT_DIR$/oo/attributemethod/methods.py" />
+        <option value="$PROJECT_DIR$/lang/methods.py" />
+        <option value="$PROJECT_DIR$/magicmethods/general/binding.py" />
+        <option value="$PROJECT_DIR$/exception.py" />
+        <option value="$PROJECT_DIR$/ctx_mg.py" />
+        <option value="$PROJECT_DIR$/magicmethods/general/lifecycle.py" />
+        <option value="$PROJECT_DIR$/lib/functools.py" />
+        <option value="$PROJECT_DIR$/immutable.py" />
+        <option value="$PROJECT_DIR$/magicmethods/general/typeConversion.py" />
+        <option value="$PROJECT_DIR$/magicmethods/general/comparison.py" />
+        <option value="$PROJECT_DIR$/magicmethods/general/typeconversion.py" />
+        <option value="$PROJECT_DIR$/magicmethods/numeric/num.py" />
+        <option value="$PROJECT_DIR$/magicmethods/general/representation.py" />
+        <option value="$PROJECT_DIR$/magicmethods/general/attraccscontrol.py" />
+        <option value="$PROJECT_DIR$/magicmethods/general/attraccessctrl.py" />
+        <option value="$PROJECT_DIR$/magicmethods/container/container.py" />
+        <option value="$PROJECT_DIR$/magicmethods/general/callable.py" />
+        <option value="$PROJECT_DIR$/spec_attr.py" />
+        <option value="$PROJECT_DIR$/magicmethods/general/reflection.py" />
+        <option value="$PROJECT_DIR$/lang/lifecycle.py" />
+        <option value="$PROJECT_DIR$/magicmethods/copy.py" />
+        <option value="$PROJECT_DIR$/lib/abc.py" />
+        <option value="$PROJECT_DIR$/lib/pickleprotocal.py" />
+        <option value="$PROJECT_DIR$/lib/weakref.py" />
+        <option value="$PROJECT_DIR$/lib/weakref_t.py" />
+        <option value="$PROJECT_DIR$/lang/nonlocalglobal.py" />
+        <option value="$PROJECT_DIR$/string_t.py" />
+        <option value="$PROJECT_DIR$/lib/operator_t.py" />
+        <option value="$PROJECT_DIR$/lang/lang.py" />
+        <option value="$PROJECT_DIR$/lib/collections_t.py" />
+        <option value="$PROJECT_DIR$/collection/coll.py" />
+        <option value="$PROJECT_DIR$/pythonic/comprehension.py" />
+        <option value="$PROJECT_DIR$/lang/packing.py" />
+        <option value="$PROJECT_DIR$/builtins.py" />
+        <option value="$PROJECT_DIR$/Gotchas.py" />
+      </list>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonRecipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonRecipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonRecipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\pythonRecipes\magicmethods" />
+      <recent name="C:\Projects\pythonRecipes\magicmethods\refl" />
+      <recent name="C:\Projects\pythonRecipes\magicmethods\ctxmgr" />
+      <recent name="C:\Projects\pythonRecipes\pythonic" />
+      <recent name="C:\Projects\pythonRecipes\specialmethods\general" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in Gotchas">
+    <configuration default="false" name="Unittests in coll" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/collection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonRecipes" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/collection/coll.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in packing (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lang" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonRecipes" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lang/packing.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in comprehension" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonRecipes" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonic/comprehension.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in builtins" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonRecipes" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/builtins.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in Gotchas" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonRecipes" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gotchas.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonRecipes" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonRecipes" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonRecipes" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonRecipes" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonRecipes" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonRecipes" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in coll" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in packing (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in comprehension" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in builtins" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Gotchas" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Gotchas" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in builtins" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in packing (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in comprehension" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in coll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4733dfb1-3dbc-4017-a01f-eb8fd66c3a13" name="Default" comment="" />
+      <created>1499988956178</created>
+      <option name="number" value="Default" />
+      <updated>1499988956178</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add __slots__ basic">
+      <created>1500418079562</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1500418079562</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add __getattribute__ basic">
+      <created>1500418768024</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1500418768024</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add basic function decorator">
+      <created>1500506139021</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1500506139021</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add object and scope files">
+      <created>1500506176008</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1500506176008</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add decorator with args and wargs">
+      <created>1500594528671</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1500594528671</updated>
+    </task>
+    <task id="LOCAL-00028" summary="clean up">
+      <created>1500595894062</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1500595894062</updated>
+    </task>
+    <task id="LOCAL-00029" summary="more decorator: wrapper from static and class methods">
+      <created>1500686335607</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1500686335607</updated>
+    </task>
+    <task id="LOCAL-00030" summary="special decorator: call decorator">
+      <created>1500768769248</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1500768769248</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add inheritance from built in types">
+      <created>1500848076188</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1500848076188</updated>
+    </task>
+    <task id="LOCAL-00032" summary="instance level binding method">
+      <created>1500848103317</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1500848103317</updated>
+    </task>
+    <task id="LOCAL-00033" summary="change file name&#10;">
+      <created>1500848148789</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1500848148789</updated>
+    </task>
+    <task id="LOCAL-00034" summary="class decorator">
+      <created>1501043014922</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1501043014922</updated>
+    </task>
+    <task id="LOCAL-00035" summary="initialize a dict using keyword">
+      <created>1501099828257</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1501099828257</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add meta class">
+      <created>1501101535651</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1501101535651</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add more meta class">
+      <created>1501106472178</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1501106472178</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add coroutine basic">
+      <created>1501148035604</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1501148035604</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add async interface">
+      <created>1501148054064</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1501148054064</updated>
+    </task>
+    <task id="LOCAL-00040" summary="class level attribute v.s. instance level attributes">
+      <created>1501223287792</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1501223287792</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add descriptor">
+      <created>1501224179316</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1501224179316</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add some comments">
+      <created>1501224202693</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1501224202693</updated>
+    </task>
+    <task id="LOCAL-00043" summary="add more descriptor">
+      <created>1501225412585</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1501225412585</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add special attribute">
+      <created>1501732761784</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1501732761786</updated>
+    </task>
+    <task id="LOCAL-00045" summary="add more for attributes and methods">
+      <created>1501796010988</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1501796010988</updated>
+    </task>
+    <task id="LOCAL-00046" summary="add new files">
+      <created>1501798438046</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1501798438046</updated>
+    </task>
+    <task id="LOCAL-00047" summary="add new files">
+      <created>1501803811467</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1501803811467</updated>
+    </task>
+    <task id="LOCAL-00048" summary="call instance level method from class by passing in obj for self">
+      <created>1502057287682</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1502057287682</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add basic  language features">
+      <created>1502060027449</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1502060027449</updated>
+    </task>
+    <task id="LOCAL-00050" summary="binding setattr">
+      <created>1502060722614</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1502060722615</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add __new__ example">
+      <created>1502060742521</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1502060742521</updated>
+    </task>
+    <task id="LOCAL-00052" summary="add some basic exception">
+      <created>1502063260713</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1502063260713</updated>
+    </task>
+    <task id="LOCAL-00053" summary="add context mgr">
+      <created>1502064370302</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1502064370302</updated>
+    </task>
+    <task id="LOCAL-00054" summary="add more: __del__, comparsion magic methods and functools.">
+      <created>1502152627809</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1502152627809</updated>
+    </task>
+    <task id="LOCAL-00055" summary="add numeric">
+      <created>1502233376773</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1502233376785</updated>
+    </task>
+    <task id="LOCAL-00056" summary="more on magic methods">
+      <created>1502324673916</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1502324673919</updated>
+    </task>
+    <task id="LOCAL-00057" summary="container method">
+      <created>1502664848126</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1502664848127</updated>
+    </task>
+    <task id="LOCAL-00058" summary="add sum and dictionary comprehension">
+      <created>1503453485253</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1503453485253</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add magic method reflection">
+      <created>1503457709899</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1503457709899</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add magic method reflection">
+      <created>1503457752076</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1503457752076</updated>
+    </task>
+    <task id="LOCAL-00061" summary="deep and shallow copy">
+      <created>1503610652200</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1503610652201</updated>
+    </task>
+    <task id="LOCAL-00062" summary="global and nonlocal">
+      <created>1503612703200</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1503612703200</updated>
+    </task>
+    <task id="LOCAL-00063" summary="add abc pickle protocal ,life cycle,  weakref and move conext manager">
+      <created>1503612774584</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1503612774584</updated>
+    </task>
+    <task id="LOCAL-00064" summary="add string formating">
+      <created>1503699756902</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1503699756902</updated>
+    </task>
+    <task id="LOCAL-00065" summary="add list and operator package">
+      <created>1504218033117</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1504218033117</updated>
+    </task>
+    <task id="LOCAL-00066" summary="add queue and stack">
+      <created>1504481734525</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1504481734526</updated>
+    </task>
+    <task id="LOCAL-00067" summary="reversed built-in">
+      <created>1504487382266</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1504487382266</updated>
+    </task>
+    <task id="LOCAL-00068" summary="packing and unpacking">
+      <created>1504560197022</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1504560197022</updated>
+    </task>
+    <task id="LOCAL-00069" summary="namedtuple from collections">
+      <created>1504561814834</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1504561814834</updated>
+    </task>
+    <task id="LOCAL-00070" summary="reverse with slicing">
+      <created>1504823512084</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1504823512084</updated>
+    </task>
+    <task id="LOCAL-00071" summary="flatting a list">
+      <created>1504901548763</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1504901548763</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_builtins - 2017.09.29 at 23h 00m 04s.xml">
+      <configuration name="Unittests in builtins" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_builtins - 2017.09.29 at 23h 00m 26s.xml">
+      <configuration name="Unittests in builtins" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_packing_(1) - 2017.09.15 at 23h 19m 01s.xml">
+      <configuration name="Unittests in packing (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_packing_(1) - 2017.09.15 at 23h 19m 49s.xml">
+      <configuration name="Unittests in packing (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_packing_(1) - 2017.09.15 at 23h 22m 48s.xml">
+      <configuration name="Unittests in packing (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_packing_(1) - 2017.09.15 at 23h 23m 02s.xml">
+      <configuration name="Unittests in packing (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_packing_(1) - 2017.09.15 at 23h 23m 22s.xml">
+      <configuration name="Unittests in packing (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_packing_(1) - 2017.09.15 at 23h 24m 15s.xml">
+      <configuration name="Unittests in packing (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_packing_(1) - 2017.09.15 at 23h 24m 54s.xml">
+      <configuration name="Unittests in packing (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_packing_(1) - 2017.09.15 at 23h 25m 40s.xml">
+      <configuration name="Unittests in packing (1)" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24635416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32312566" sideWeight="0.42447916" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980973" sideWeight="0.4359375" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980973" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32312566" sideWeight="0.5755208" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957717" sideWeight="0.475" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980973" sideWeight="0.49375" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add more for attributes and methods" />
+    <MESSAGE value="add new files" />
+    <MESSAGE value="call instance level method from class by passing in obj for self" />
+    <MESSAGE value="add basic  language features" />
+    <MESSAGE value="binding setattr" />
+    <MESSAGE value="add __new__ example" />
+    <MESSAGE value="add some basic exception" />
+    <MESSAGE value="add context mgr" />
+    <MESSAGE value="add more: __del__, comparsion magic methods and functools." />
+    <MESSAGE value="add numeric" />
+    <MESSAGE value="more on magic methods" />
+    <MESSAGE value="container method" />
+    <MESSAGE value="add sum and dictionary comprehension" />
+    <MESSAGE value="add magic method reflection" />
+    <MESSAGE value="deep and shallow copy" />
+    <MESSAGE value="global and nonlocal" />
+    <MESSAGE value="add abc pickle protocal ,life cycle,  weakref and move conext manager" />
+    <MESSAGE value="add string formating" />
+    <MESSAGE value="add list and operator package" />
+    <MESSAGE value="add queue and stack" />
+    <MESSAGE value="reversed built-in" />
+    <MESSAGE value="packing and unpacking" />
+    <MESSAGE value="namedtuple from collections" />
+    <MESSAGE value="reverse with slicing" />
+    <MESSAGE value="flatting a list" />
+    <option name="LAST_COMMIT_MESSAGE" value="flatting a list" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/decorator.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/magicmethods/reflection.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/magicmethods/reflection.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/oo/object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/attributemethod/attribute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/attributemethod/descriptor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="65" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="192" column="60" selection-start-line="192" selection-start-column="60" selection-end-line="192" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/closure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/attributemethod/property.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/attributemethod/methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io_t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magicmethods/general/comparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magicmethods/general/attraccessctrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magicmethods/general/representation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magicmethods/general/typeconversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="573" column="0" selection-start-line="573" selection-start-column="0" selection-end-line="573" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magicmethods/general/lifecycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coroutine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/class_t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="48" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magicmethods/ctxmgr/ctx_mg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magicmethods/general/callable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magicmethods/general/binding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magicmethods/copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lambda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/weakref_t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pickleprotocal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/functools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magicmethods/numeric/num.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magicmethods/reflection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec_attr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string_t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1595" column="0" selection-start-line="1595" selection-start-column="0" selection-end-line="1595" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/operator_t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magicmethods/container/container.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/nonlocalglobal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/lifecycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections_t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/coll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonic/comprehension.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/packing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/idioms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/immutable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="153" column="38" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gotchas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40293637">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

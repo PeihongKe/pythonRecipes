@@ -17,3 +17,8 @@ class TestBuildIn(util.TestCaseBase):
         l = [1, 2, 3]
         expected = [3, 2, 1]
         self.assertEqual(list(reversed(l)), expected)
+
+    def test_cha_ord(self):
+        chr(97) == 'a'
+        ord('a') == 97
+
