@@ -1,6 +1,6 @@
 import util
 
-class PowTwo:
+class PowTwo(object):
     """class to implement an iterator protocol  """
     def __init__(self, max = 0):
         self.max = max
@@ -19,6 +19,16 @@ class PowTwo:
         else:
             raise StopIteration # to indicate foo loop that it stops
 
+class PowTwo2(object):
+    """If a container object’s __iter__() method is implemented as a generator,
+    it will automatically return an iterator object (technically, a generator object) supplying the  __iter__() and next() methods."""
+
+    def __iter__(self):
+        yield 1
+        yield 2
+        yield 3
+
+
 class TestIterator(util.TestCaseBase):
 
     def test_container(self):
@@ -26,6 +36,11 @@ class TestIterator(util.TestCaseBase):
         list = [1,2,3,4]
         iterator = iter(list)
         print(next(iterator))
+
+    def test_powTow2(self):
+        it2 = PowTwo2()
+        print(sum(it2))
+
 
 
 class TestBuildIn(util.TestCaseBase):
